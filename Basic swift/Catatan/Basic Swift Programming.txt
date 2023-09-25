@@ -109,6 +109,81 @@ var cost = int(Double(quantity)) * price
 nb 
 bahwa int(Double(quantity)) niban tipe data dimana wang awalnya double di tiban integer hasilna integer 
 
+Boolean and Conditional logic and operator
+
+1. Boolean (Bool)
+boolean berisi true atau false dalam sebuah operator
+
+2. Operator
+A. sama dengan ==
+B. lebih dari >
+C. kurang dari <
+D. lebih dari sama dnegan >=
+E. kurang dari sama dnegan <=
+F. tidak sama dengan !=
+
+3 Conditional Logic
+if else statement and Nested if
+
+
+// initialisation
+
+var Nilai = 80
+var Nilai1 = 90
+if Nilai >= Nilai1 {
+	print ("Memenuhi syarat")
+}else {
+	print ("Tidak Mamenuhi Syarat")
+}
+
+Nested if 
+
+if Nilai >= Nilai1 {
+	print ("Memenuhi syarat")
+}else if Nilai1 <= Nilai {
+	print ("Kamu harus Belajar Lagi")
+}
+else {
+	print ("Tidak Mamenuhi Syarat")
+}
+
+Logical Operator
+logical bukan operator tetapi unary prefix oprator
+! artinya not atau tidak
+
+let allowedentry = false
+
+if !allowedentry {
+	print ("hello allowed entry")
+}
+
+if allowedentry != false {
+	print ("hello allowed entry")
+}
+
+
+Arrays 
+adalah struktur data untuk mengimpan banyak nilai berbeda tipedata kedalam variable array
+count adalah kata kunci untuk menghitung apapun termasuk array dan string
+array biasanya digunakan untuk membuat daftar apapun
+
+// init secara eksplisit
+var EmployeeSalary : [Double] = [45000.0 , 50000.0 , 100000.0 , 20000.0 , 25000.0]\
+var EmoloyeeSalary = [Double] () // arrays kosongan
+
+init
+
+var EmployeeSalary [123,112,224]
+EmployeeSalary.append(135) // digunakan untuk menambah elemen kedalam array di belakang
+EmployeeSalary.insert("Bob", at : 0) // digunakan untuk menambah elemen kedalam array sesuai indeks yang dimau can be front or behind
+employee.count // menghitung jumlah array
+Employee.delete(at : int == index ) // menghapus array
+
+let result = EmployeeSalary[2]
+print (result)
+
+
+
 
 
 

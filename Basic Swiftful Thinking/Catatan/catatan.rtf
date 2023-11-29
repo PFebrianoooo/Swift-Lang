@@ -1,0 +1,932 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-Oblique;
+\f3\fnil\fcharset0 Menlo-Bold;\f4\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red251\green0\blue7;\red0\green0\blue0;\red251\green0\blue7;
+\red252\green95\blue163;\red31\green31\blue36;\red255\green255\blue255;\red65\green161\blue192;\red161\green103\blue230;
+\red208\green168\blue255;\red252\green106\blue93;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c100000\c12195\c0;\cssrgb\c0\c1\c1;\cssrgb\c99893\c12008\c0;
+\csgenericrgb\c98839\c37355\c63833;\csgenericrgb\c12054\c12284\c14131;\csgenericrgb\c100000\c100000\c100000\c85000;\csgenericrgb\c25490\c63137\c75294;\csgenericrgb\c63232\c40219\c90115;
+\csgenericrgb\c81681\c65692\c99927;\csgenericrgb\c98912\c41558\c36568;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25180\viewh16380\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 SWIFTFUL PROGRAMMING \
+\
+// Dasar -1 starts //\
+HOW TO CODE IN SWIFT.\
+1. Print to console\
+
+\f1\b0 print ()\
+\
+
+\f0\b 2. comment\
+
+\f1\b0 // Single line comments\
+/**/ multiline comments\
+\
+
+\f0\b 2. Penamaan variable\
+
+\f1\b0 1. camel case \
+var fullName = \'93Putra Pebriano Nurba\
+\
+2. snake case\
+var this_is_camel_case = \'93Putra Pebriano Nurba\'94
+\f0\b \
+// Dasar -1 ends //\
+\
+// Dasar -2 starts //\
+Menggunakan Basic Type Swift\
+Bermain-Main dengan huruf
+\f1\b0 \
+1. String\
+string adalah kumpulan kata kata misalkan nama panjang, alamat dan yang lainnya yang berkaitan penggunaan huruf dan kata-kata.\
+\
+inisialisasi \
+var fullName : String =  \'93Putra Pebriano Nurba\'94\
+\
+2. Char \
+char adalah single huruf misalkan grade penilaian a atau b.\
+\
+inisialisasi.\
+var grade = \'93A\'94\
+\
+
+\f0\b Bermain main dengan angka.
+\f1\b0 \
+1. Int\
+int adalah tipe data yang berisi angka dalam format bilangan bulat non desimal. Biasanya digunakan untuk operasi matematika\
+\
+misalkan.\
+var ageUncle = 27\
+\
+2. Float\
+float adalah tipe data yang berisi angka desimal. dimana float biasa digunakan dalam operasi matematika. dengan menyatakan bilangan desimal, misalkan nilai Phi = 3.14\
+\
+inisialisasi.\
+let phiMath = 3.14\
+\
+3. CGFloat\
+CGFloart adalah tipe data yang biasa digunakan untuk karakterisasi tipe data kedalam bilangan desimlal, CGFloat biasanya digunakan untuk operasi pembuatan ukuran pada UI, misalkan tinggi, lebar , dsb.\
+\
+var width = 30.33\
+\
+
+\f0\b CGFloat Vs Double \
+
+\f1\b0 Double digunakan untuk operasi matematika atau math problem
+\f0\b  
+\f1\b0 daripada integer sedangkan CGFloat digunkan untuk operasi ukuran pada pembuatan UI.\
+
+\f0\b \
+Bermain Main dengan benar dan salah\
+
+\f1\b0 Boolean (aka Bool)\
+boolean adalah pernyataan true or false untuk mengoperasikan mana yang benar dan mana yang salah, biasanya Boolean digunakan untuk ternary operator yang bisa menyatakan True or False.\
+\
+let isDefault = false / true\
+
+\f0\b \
+// Dasar -2 ends //
+\f1\b0 \
+\
+
+\f0\b // Dasar -3 starts //\
+
+\f1\b0 Variable and constants\
+\
+
+\f0\b 1. Variable 
+\f1\b0 \
+variable adalah sebuah keyword untuk menyatakan apakah sebuah nilai yang ditaruh di nama variable sesuai tipedata data dirubah atau tidak. biasanya kita menyatakan variable untuk sesuatu yang bisa dirubah sesuai keinginan kita.\
+\
+
+\f0\b inisialisasi
+\f1\b0 \
+var moneyHave = 20000\
+moneyHave = 120000\
+moneyHave = 10000\
+\
+
+\f0\b 2. constants
+\f1\b0 \
+constants adalah keyword untuk menyatakan sebuah constant yang dimana constant merupakan sesuatu yang tidak dapat dirubah.\
+\
+
+\f0\b inisialisasi.
+\f1\b0 \
+let ageOfBirth = \'93February 22, 2023\'94\
+ageOfBirth = \'93none\'94 // cannot operate 
+\f0\b \
+\
+constants vs variable\
+
+\f1\b0 pada variable tipe data yang pada awalnya sudah di assign sebagai string, maka selajutnya akan berlaku string apabila dirubahnya. dan berlaku untuk tipe data yang lainnya, apabila di assign pada awlanya double selanjutnya akan double .\
+untuk constant atau let tidak berlaku perubahan karena konstan valuenya akan tetap sama.\
+
+\f0\b \
+// Dasar -3 ends //\
+\
+// Dasar -4 starts //
+\f1\b0 \
+
+\f0\b if statements \
+
+\f1\b0 if statements adalah pengkondisian dimana apabila terpenuhi maka akan mengeksekusi argumen di bwahnya\
+let isPremium = true\
+if isPremium \{\
+	print (\'93hello you\'94)\
+\}\
+
+\f0\b \
+if else statements 
+\f1\b0 \
+if else statements menyatakan kondisi dimana apabila if terpenuhi maka akan mengeksekusi isi argumen yang ada di dalamnya. apabila tidak terpenuhi maka akan langsung mengeksekusi line arguments else \
+\
+if kondisiCheck \{\
+	// args \
+\}else \{\
+	// args\
+\}\
+\
+
+\f0\b Ternary Operator \
+
+\f1\b0 ternary operator sama halnya dengan if else statements namun penulisan yang lebih singkat.\
+kondisi ? True : False\
+\
+3 <= 4 ? Print (\'93Anda Benar\'94) : print (\'93Anda Salah\'94)\
+\
+
+\f0\b Logical Operator\
+
+\f1\b0 1. Not\
+not adalah melawan pernyataan sebelumnya dalam boolean misalkan\
+var isPremium = false \
+!isPremium = true\
+\
+2. And\
+and adalah logical operator dimana menghasilkan true apabila keduanya benar. menghasilkan false apabila salah satu atau keduanya false\
+var haveKeyMotorcycle = false\
+var haveMotorcycle = true\
+\
+\
+3. Or\
+Or adalah logical operator dimana menghasilkan true apabila salah satunya true dan keduanya true, menghasilkan false apabila keudanya false.\
+let havePassword = true\
+let haveHint = false \
+\
+
+\f0\b Bagaimana Penggunaanya.
+\f1\b0 \
+Mostly logical operator digunakan untuk statement-statement seperti if else statement.\
+1. Not
+\f0\b \
+
+\f1\b0 biasanya dipakai pada if else statements dengan\
+var isPremium = false \
+!isPremium = true\
+\
+if !isPremium \{\
+print (\'93hello you there\'94)\
+\}\
+\
+2. And \
+var haveKeyMotorcycle = false\
+var haveMotorcycle = true\
+if haveKeyMotocycle && haveMotocycle \{\
+	print (\'93Access Grantedd\'94)\
+\}\
+\
+3. Or\
+let havePassword = true\
+let haveHint = false \
+if havePassword || haveHint \{\
+print (\'93Phone Opened\'94)\
+\}
+\f0\b \
+// Dasar -4 ends //
+\f1\b0 \
+\
+
+\f0\b // Dasar -5 starts //\
+Bagaimana cara menulis dan menggunakan  if else statements dan operator di swift.\
+
+\f1\b0 Operator pada swift.\
+1. Tambah\
+2. Kurang.\
+3. Perkalian\
+4. Pembagian.\
+5. Modulo\
+\
+
+\f0\b Penulisan operator yang di assign kedalam variable\
+var a = 6\
+\
+misalkan contohnya tambah\
+1. a = a + 2
+\f1\b0  (Normal)
+\f0\b \
+2. a += 2 
+\f1\b0 (Shorthand)
+\f0\b \
+\
+No 2 is good decision if u want use operator
+\f1\b0 \
+\
+
+\f0\b 1. Tambah.\
+
+\f1\b0 var a = 6\
+a += 6 \
+hasilnya adalah 12
+\f0\b \
+\
+2. Kurang \
+
+\f1\b0 var a = 6\
+a -= 2\
+hasilnya adalah 4\
+\
+
+\f0\b 3. Perkalian
+\f1\b0  \
+var a = 6\
+a *= 2\
+hasilnya adalah 12\
+\
+
+\f0\b 4. Pembagian\
+
+\f1\b0 var a = 10\
+a /= 2\
+hasilnya adalah 5\
+\
+
+\f0\b 5. Modulo\
+
+\f1\b0 var a = 10\
+a %= 2  == 2 \
+print (x)\
+hasilnya adalah nol.\
+\
+
+\f0\b kondisional Operator.\
+
+\f1\b0 1. lebih dari ( > )\
+2. lebih dari sama dengan ( >= )\
+3. kurang dari ( < )\
+4 kurang dari sama dengan. ( <= )\
+5. tidak sama dengan != \
+\
+
+\f0\b Kondisional Operator digunakan untuk compare if else statements dan mngkolaborasikkannya dengan logical operator serta aritmetchic operator\
+\
+Nested if
+\f1\b0 \
+apabila kondisi pertama terpenuhi maka if selanjutnya dan else diabaikan, apabila if atau kondisi pertama  tidak terpenuhi maka dilanjutkan untuk mengecek kondisi ke 2, apabila diantara 2 kondisi tersebut tidak ada yang memenuhi maka else condition akan dieksekusi.\
+\
+
+\f0\b Peringatan !!!
+\f1\b0 \
+misalkan pada contoh dibawah, apabila kondisi pertama terenuhi maka selanjutnya diabaikan, walaupun kondisi ada yang match seperti 3 lebih dari 0 dan a == 3 . akan mengabaikan kondsi if else statements kedua.\
+\
+
+\f0\b // contoh nested if
+\f1\b0 \
+var a = 2\
+if a >= 0 \{\
+	// do something\
+\}else if a == 3 \{\
+	// do something\
+\}else \{\
+	// do something\
+\}
+\f0\b \
+\
+guard statements.\
+apabila kondisi tidak terpenuhi maka eksekusi else. tetapi apabila kondisi terpenuhi maka eksekusi return global. sayangnya guard statements dapat digunakan pada pengkondisian dengan fungsi pengembalian.\
+\
+var a = true\
+var b = false	\
+func doSomething() -> string \{\
+	guard  a && b else \{\
+		return \'93Hello false conditional\'94\
+	\}\
+	return \'93Hello true conditional\'94\
+\}\
+\
+// Dasar -5 ends //\
+\
+// Dasar -6 starts //\
+Functions in swift.\
+Functions.\
+
+\f1\b0 functions atau fungsi adalah sebuah container untuk menyinpan sebuah data kedalam fungsi dimana apabila fungsi itu tidak di panggil maka argumen yang berada di dalamnya tidak akan ter eksekusi. Untuk bisa meng akses argumen isi didalam sebuah fungsi kita harus memanggil fungsinya.
+\f0\b  
+\f1\b0 Dan dalam fungsi apabila kita tidak me returnkan apapun thats by default void\
+\
+template \
+func namaFungsi() \{\
+	// argument\
+\}\
+\
+func namaFungsi -> Void \{\
+	// args\
+\}	\
+\
+inisialisasi dan pemanggilan\
+func callMyName() \{\
+	print (\'93Hello Putra Pebriano Nurba\'94)\
+\}\
+\
+callMyName()\
+\
+
+\f0\b Fungsi dapat memanggil fungsi lainnya.
+\f1\b0  (
+\f0\b Chaining
+\f1\b0 )
+\f0\b \
+
+\f1\b0 dalam sebuah fungsi kita juga dapat memanipulasi fungsi dengan memanggil fungsi di dalamya yang disebut dengan chaining dimana fungsi pertama akan terkait ke fungsi ke 2 dan ke 3 apabila kita assign atau memanggil fungsi didalam fungsi yang pertama.\
+\
+inisialisasi.\
+func myFirstFunction() \{\
+	print(\'93this is my first functions\'94)\
+	mySecondFunctions()\
+	myThirdFunctions()\
+\}\
+\
+func mySecondFunctions() \{\
+	print(\'93this is my second functions\'94)\
+\}\
+\
+func myThirdFunctions() \{\
+	print(\'93this is my third functions\'94)\
+\}\
+\
+
+\f0\b Kontrol akses fungsi.\
+
+\f1\b0 kontrol akses fungsi atau 
+\f2\i controll access functions 
+\f1\i0 adalah sebuah kontrol akses atau variable atau fungsi yang hidup di dalam sebuah fungsi, dimana apabila kit amendefinisikan variable atau constant didalam variable, maka variable atau constant itu akan hidup didalam fungsi tersebut dan tidak bisa di interferensi dari luar. dalam kata lain bahwa access control yang didalam fungsi itu adalah private by default and cannot change the visibility.\
+\
+inisialisasi.\
+\cf2 \cb3 func getMyName() \{\
+	let fullName = \'93Putra Pebriano Nurba\'94\
+	print(\'93fullName\'94)\
+\}\
+\
+fullName = \'93Fajri\'94 // it will be error\cf0 \cb1 \
+\
+
+\f0\b Mengembalikan sebuah data kedalam fungsi.\
+
+\f1\b0 Mengembalikan sebuah data kedalam fungsi atau bisa dibilang fungsi dengan pengembalian adalah sebuah metode untuk mengambil sebuah data didalam variable yang sebelumnya dinyatakan private by default oleh swift.\
+\
+inisialisasi.\
+\cf4 \cb3 func namaFungsi() -> returningDataTypes \{\
+	// args data yang mau di return\
+\
+	return ?\
+\}\
+\cf0 \cb1 \
+contoh \
+\cf4 \cb3 func getMyName() -> String \{\
+	let fullName = \'93Putra Pebriano Nurba\'94\
+	return fullName\
+\}\
+\
+var myNameIs = getMyName()\
+myNameIs = \'93Hallo sayangku\'94\cf0 \cb1 \
+\
+
+\f0\b bahwa bila kita mengembalikan value yang ada di fungsi, maka ketika di assign ke variable maka variable itu ngikut tipe data yang di kembalikan, misalkan diatas string. maka variable myNameIs ngikut string dan bisa dirubah isinya. Dan dalam sebuah fungsi dnegam pengembalian diharuskan untuk menulis return atau pengembalian yang mau di kembalikan.\
+\
+Control Flow di fungsi (Functions)\
+
+\f1\b0 control flow atau pengontrollan sebuah pengkondisian dimana kita bisa membuat syarat syarat yang ada di dalam fungsi yang akan membuat sistem memilih mana yang cocok untuk pemilihan syarat atau if else statement.\
+\
+bayangkan jika di login screen dimana apabila user mengetikan sebuah username dan password kedalam form ,apabila user memiliki hanya password saja itu tidak bisa login dan sebaliknya, harus memiliki username dan password agar bisa login ke tampilan utama.
+\f0\b \
+\
+
+\f1\b0 \
+\cf4 \cb3 let isUserHavePassword = password\
+let isUserHaveUsername = true\
+\
+func userOpenigScreen() -> Bool \{\
+	\
+	if isUserHavePassword && isUserHaveUsername \{\
+		// pergi ke halaman utama\
+		return \'93Welcome to main View\'94	\
+	\}else \{\
+		// tidak punya password atau usename.\
+		return \'93please check is username or password wrong.\
+	\}\
+\}\
+\cf0 \cb1 \
+
+\f0\b biasanya dalam sebuah applikasi data berada di tempat lain dan perlu di control di dalam fungsi
+\f1\b0 .
+\f0\b  Maka dari itu perlu adanya fungsi dengan parameter untuk me-reference kan kedalam fungsi.\
+\
+fungsi dengan Parameter.\
+
+\f1\b0 fungsi dengan Parameter atau 
+\f2\i parameterize functions 
+\f1\i0 adalah sebuah metode untuk mereference kan data yang berada di file terpisah agar bisa di setakan masuk kedalam fungsi. oleh karena itu perlu adanya fungsi dengan parameter atau 
+\f2\i parameterized functions.
+\f0\i0\b \
+\
+
+\f1\b0 \cf4 \cb3 let isUserHavePassword = false\
+let isUserHaveUsername = true\
+\
+func userOpenMainView(userHavePasswowrd : Bool, userHaveUsername : Bool) -> String \{\
+	if userhavePassword && userHaveUsername \{\
+	// opening screen\
+	return \'93Hello on main or home view\'94\
+	\}else \{\
+	// didnt open screen.\
+	return \'93Check if username or password is correct\'94\
+	\}	\
+\}\cf0 \cb1 \
+\
+
+\f0\b Kita bisa passing data kedalam fungsi melalui fungsi dimana kita membuat fungsi dan mem passing fungsi kedalam fungsi, dimana dalam aplikasi bekerja kita harus passing data manuallly untuk mengetahui kemana data itu pergi. Thats how we do for make an applications. jika kita tidak mengeti dalam membuat fungsi dan mempassing data. we arent able to make an app.\
+caranya terdapat didalam syntax.
+\f1\b0 \
+\
+
+\f0\b Catatan Penting.\
+// Returning Functions\
+1. Tidak penting apa argument yang ada didalam fungsi. sebuah fungsi dengan pengembalian control flow harus memiliki returning function secara global. lalu apabila terpenuhi maka akan me returnkan sebuah value. dan mengabaikan global return dan apabila false maka mengabaikan true returning.\
+contohnya.\
+A. apabila controlflow single maka harus ada returning func. global untuk mengcovernya apabila salah atau false\
+B. apabila fungsi sudah di return maka aka mengabaikan semua fungsi di bawahnya walaupun kita memakai control flow lagi di bawahnya.\
+ 
+\f3 \cf5 \cb6 \
+
+\f0 \cf0 \cb1 \
+\pard\tx890\pardeftab890\partightenfactor0
+
+\f3 \cf5 \cb6 func
+\f4\b0 \cf7  \cf8 doSomething\cf7 () -> \cf9 String\cf7  \{\
+    
+\f3\b \cf5 let
+\f4\b0 \cf7  isBool : \cf10 Bool\cf7  = 
+\f3\b \cf5 false
+\f4\b0 \cf7 \
+    \
+    
+\f3\b \cf5 if
+\f4\b0 \cf7  isBool \{\
+    
+\f3\b \cf5 return
+\f4\b0 \cf7  \cf11 "New"
+\f3\b \cf5  // mengabaikan ini apabiila false
+\f4\b0 \cf7 \
+    \}\
+    
+\f3\b \cf5 return
+\f4\b0 \cf7  \cf11 "Not New"
+\f3\b \cf5  // mengabaikan ini apabila true
+\f4\b0 \cf7 \
+\}
+\fs36 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \cb1 \
+\
+Guard statements 
+\f1\b0 (control flow)
+\f0\b \
+
+\f1\b0 Guard statements (guard) adalah fungsi pengembalian juga .misalkan pada control flow bentuk lain dari control flow jika pernyataan benar/true maka mengambil retun global dan apabila false maka mengambil else yang di guarkan dan menggunakan return. selengkapnya di syntax.\
+gampangnya gini. guard control flow sama halnya dnegan if else statements tetapi berbeda pada cara penulisannya\
+\
+inisisalisasi.\
+\
+\cf4 \cb3 func doSomethingElse() -> String \{\
+	let tittle = \'93Avengers\'94\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf4 	\
+	// pastikan guard == \'93Avengers\'94
+\f1\b0 \
+	guard tittle == \'93Avengers\'94 else \{
+\f0\b    // false 
+\f1\b0 \
+	return
+\f0\b  \'93Not Marvel\'94
+\f1\b0 \
+
+\f0\b 	\}\
+	return \'93Marvel\'94 // True\
+\}\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \
+SIngkat ceritanya.\
+1. ketika kita membuat fungsi maka attrbut didalamnya private by default.\
+2. ketika kita mengembalikan nilai maka kita harus mereturnkan setiap kasus setiap case.\
+3. ada 2 control flow didalam fungsi yaitu guard and if else statements
+\f1\b0 \cf4 \cb3 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf3 \cb12 Calculate Variables.\
+
+\f1\b0 mengkalkulasikan 2 atau lebih variable tanpa ada parameter yang di passing sama halnya dengan fungsi dengan pengembalian return. \
+bagusnya dari calculate variable adalah dimana tidak ada di reference kan .kita menggunakan calc variable dan apabila ada fungsi yang di reference kan kita menggunakan fungsi.\
+\
+var a = 10\
+var b = 20\
+var/let nameVariable : tipeDatayangdihasilkan \{\
+	return a + b	\
+\}
+\f0\b \cf0 \cb1 \
+\
+Rekapan Materi keseluruhan\
+1. fungsi dapat memanggil fungsi didalm fungsi namanya chaining.\
+2. fungsi dengan pengembalian harus assign data yang mau di kembalikan apa dan harus punya return didalamnya.\
+3. fungsi dengan parameter adalah fungsi yang digunakan utnuk mengambil file yang di file lain. bisa menggunkan pengembalian atau tidak.\
+3. control flow dibagi 2 if else / guard \
+dimana if else dan guard harus mengcover fungsi yang dikembalikan dari control flow, lalu apabila if sudah di kembalikan maka else dan code dibawahnya akan diabaikan. bisa menggunakan fungsi referencing atau tidak.\
+4. apabila kita menggunakan fungsi tanpa reference menggunakan calculate area dan apabila ada yang di referencekan menggunakan fungsi.
+\f1\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \
+// Dasar -6 ends //\
+\
+// Dasar -7 starts //\
+Optionals.\
+
+\f1\b0 optionals adalah sebuah kondisi dalam pengembalian tipe data dimana sebelumnya kita dapat mengembalikan nilai atau value tetapi tidak bisa memilih bahwa nilainya kosong. maka dari itu fungsinya opsional adalah memberikan parameter kepada value bahwa nilai bisa saja nil atau kosong. u may have pass data but u may have pass nothing, thats we call nil in optionals.\
+inget bahwa swift itu typesafe dimana integer dnegan integer, double dnegan double sama juga dnegan optional harus di pasangkan dengan optionals.\
+\
+nil atau kosong artinya tidak ada nilai yang di set disana.\
+\
+misalkan\
+apabila boolean biasa hanya memiliki 2 kemungkinan yaitu true or false.\
+tapi apabila boolean optional memilki 3 kemungkinan yaitu true or false or nil.
+\f0\b \
+Berlaku untuk semua tipe data, misalkan integer dia bisa saja nilainya integer atau optional tidak ada.\
+\
+Nil Coalescing.
+\f1\b0  ??
+\f0\b \
+
+\f1\b0 nil coalescing adalah sebuah operasi dalam optional dimana apabila valuenya ada maka gunakan value itu tetapi apabila varunya tidak ada maka gunakan default yang sudah saya set sebelumnya. 
+\f0\b ingat bahwa swift typesafe dimana optionals bisa nilainya ada atu tidak.
+\f1\b0 \
+apabila sama sama optional tidak masalah. tetapi apabila optional di set ke constant non optionals maka perlu adanya nil coalescing untuk memberikan default argument apabila nilainya kosong.\
+\
+cara memberikan sebuah value ke optionals dnegan ?? lalu diikuti dnegan arguments sesuai tipe data.\
+var myInt: Int? = nil\
+print (myInt ?? 100)\
+\
+\
+contoh\
+var myBool: Bool? = nil\
+\
+var booleanValue: Bool = myBool \cf4 \cb13 ?? false // ini yang dinamakan dengan nil coalescing atau default nya.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf3 \cb14 catatan. \
+bahwa dalam penggunaan optionals pada if else statements dan guard statements dimana kita assign sebuah constant dalam if else statements yang dapat digunakan diidalam if atau guard nya. Dinamakan Unwrapping optionals to tipedata biasa.\
+\
+\
+ios inteview questions \
+how to unwrap optionals. dengan cara.\
+1. Dengan menggunakan nil coalescing.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \cb1 \
+var a: String? = \'93putra\'94\
+\
+print(\'93my name is : \\(a ?? \'93Putra Pebriano Nurba\'94)\'94)\
+\
+2. Dengan menggunakan if else statements yang assingn ke constant namaVariableBaru / nama optional sebelumnya.\
+\
+var a: Bool ? = false \
+\
+cara ke-1\
+func checking() -> Bool \{\
+	if let newValue = a \{\
+		return newValue\
+	\}\
+	return false\
+\}\
+\
+cara ke-2 \
+func checking() -> Bool \{\
+	if let a \{\
+	return a	\
+	\}\
+	return false\
+\}\
+\
+3. Dengan menggunakan guard statements\
+var a: String? = nil	\
+\
+cara ke-1\
+func checking() -> String \{\
+	guard let newValue = a else \{\
+	return \'93there no such Name\'94\
+	\}\
+	return newValue\
+\}\
+\
+cara ke-2\
+func checking() -> String \{\
+	guard let a else \{\
+	return \'93Theres No Such Name\'94\
+	\}\
+	return a\
+\}\
+\
+Mengenai contoh terdapat didalam syntax. Dan pembahasan secara practical.\
+// Dasar -7 ends //\
+\
+// Dasar -8 starts //\
+Tuple.\
+tuple adalah pengembalian fungsi dimana pada fungsi biasanya tuple mengembalikan fungsi yang berupa satu tipe data saja, tetapi pada saat menggunakan tuple tipedata yang dikembalikan bisa banyak bentuk.\
+misalkan dalam satu fungsi kita mengemballikan nilai string, maka dengan tuple dapat mengembalikan nilai atau data dalam satu dua tiga atau banyak tipe data.\
+Tuple sangatlah berteman baik dengan fungsi\
+\
+// tuple biasa dengan pengembalian lebih dari 1\
+func getUserInfo() -> (datatype1, datatype2) \{\
+	\
+	return (value1, value2)\
+\}\
+\
+\
+// tuple yang pengembaliannya disertai dengan parameter\
+func getUserInfo() -> (thisIsCalledTuple : dataTypes1, thisIsCalledTupe : dataType2) \{\
+	\
+	return (value1, value2)\
+\}\
+\
+\
+\
+Reminder.\
+1. pengembalian value atau nilai pada return harus didasarkan pada pernyataan setelah arrow functions pada tipedata yang mau dikembalikan. misalkan yang ingin dikembalikan berupa string dan boolean.\
+maka yang harus dilakukan oleh return adalah harus sesuai sama string dan boolean tadi.\
+\
+2. Pemisahan nilai tuple dapat menggunakan indexing, dan di masukkan kedalam variable atau constant.\
+\
+3. Apabila dalam tuple yang pengembaliannya disertai dengan parameter. maka pada saat kita panggil fungsinya, maka yang kita dapatkan adalah sebuah nama parameternya bukan indexingnya, Gampangnya parameter mengubah cara pandang awal yang memanggilnya dnegan indexing menjadi dengan nama alias indexing atau parameter.\
+\
+4. memanggil data kedalam fungsi dapat menggunakan bantuan fungsi atau dengan langsung direct ke variablenya atau cosntantnya.\
+\
+// Dasar -8 ends //\
+\
+// Dasar -9 starts //\
+Object Oriented Programming.\
+menjelaskan pendahuluan tentang object oriented programming pada swift untuk penjelasan mendetail tentang object ooriented programming bisa dilihat pada source code yang berada pada folder syntax.\
+\
+pada video ini menjelaskan tentang apa itu OOP pada swift bagaimana membuat objek, membuat initializer atau de initializer serta bagaimana cara membuat dan menghancurkan objects lalu membahas mengenai alokasi memory yaitu pada stack memory atau pada heap memory.\
+\
+Jangan sampai lupa pada ARC\
+ALLOCATE REFERENCE COUNTING (ARC)\
+// Dasar -9 ends //\
+\
+// Dasar -10 starts //\
+Structs\
+
+\f1\b0 1. struct is fast!\
+2. struct hidup di stack memory. which is make struct is fast.\
+3. struct known by value cause struct live in stack memory.\
+4. value in stack is not copy and paste in memory, but copy and mutate (mutasi/berpindah)
+\f0\b  di structs\
+\
+Didalam Struct terdapat.\
+1. attributes.\
+2. Functions\
+3. initializer (Made by implicit by LLVM but we can also change parameters to make default and optionals)
+\f1\b0 \
+\
+
+\f0\b struct pada swift Kelebihan\
+1. Tidak perlu menuliskan initialisasi.\
+tetapi pada inisialissasi kita bisa merubah parameter yang awalnya generated by compiler tetapi bisa merubah parameternya menjadi optional atau memberikan default value kepada parameters.\
+\
+struct dibagi menjadi 2 bagian\
+1. imuatble struct atau struct yang attributesnya constant.\
+2. mutable struct yang attributesnya variable/dapat diiubah atau di update.\
+\
+// Dasar -10 ends //
+\f1\b0 \
+\
+
+\f0\b // Dasar -11 starts //\
+Enums\
+Enums ada untuk mengelompokan data agar lebih mudah untuk dimanage dan diatur, enums merupakan pengelompokan data enum sangat berteman baik dengan struct dan switch case. Fungsinya enums adalah yang selelumnya menulis data secara manual sekarang dikelompokan agar lebih mudah di ketahui dan di manage apabila mengalami perubahan, dan membuat code clean look\
+\
+enums VehicleInfo \{\
+	case case1 , case2, etc\
+\}\
+\
+penjelasan lengkap berada di syntax.\
+\
+// Dasar -11 ends //\
+\
+// Dasar -12 starts //\
+Class in swift.\
+class sama seperti struct, tetapi pada saat inisialisasi object struct menggunakan variable sedangkan class menggunakan constant, lalu untuk isi daripada struct and class sama yaitu dapat menaruh fungsi dan attributes\
+pada class kita tidak mutate atau merubah tetapi kita edit si object itu.\
+\
+lengkapnya mengenai pembahasan berada pada syntax\
+\
+class NamaKelas \{\
+	// args\
+\
+\}\
+\
+// Dasar -12 ends //\
+\
+// Dasar -13 starts //\
+Access specifier\
+Pada dasarnya apabila sudah berada di high level of programming kita membuat atau ingin membuat data smuanya seprivat mungkin.\
+access specifier bekerja pada struct dan kelas, biasanya bekerja pada attributes dan fungsi.\
+macam-macam access specifier.\
+1. public\
+2. private\
+3. private(set)\
+\
+Public\
+
+\f1\b0 public artinya dimanapun diluar kelas kita bisa mengubahnya baik dengan set data atupun get data/value\
+\
+
+\f0\b Private\
+
+\f1\b0 private artinya kita bisa mengibah data hanya dari dalam sebuah kelas atau struct
+\f0\b \
+\
+Private (set)\
+
+\f1\b0 Private (set) artinya kita hanya bisa mengubah attribut atau isi daripada yang dinyatakan dengan private(set) diluar dair class atau struct, hanya bisa get data but cannot change the data, change atau merubah data hanya bisa dilakukan didalam class or struct.
+\f0\b \
+\
+access specifier lain di swift.\
+1. public\
+2. private\
+3. Private(set)\
+4. fileprivate\
+5. internal.
+\f1\b0 \
+\
+\
+
+\f0\b Rule Of Thumb.\
+1. kita mau membuat sesuatu seprivat mungkin\
+2. yang membuat kode anda akan lebih enak dibaca dan di debug, and alse is a good coder\
+// Dasar -13 ends  //\
+\
+// Dasar -14 starts //
+\fs26 \
+Arrays and sets\
+Arrays
+\f1\b0 \
+arrays merupakan collection of data dari basic types seperti integer boolean
+\f0\b  
+\f1\b0 string and etc, dalam array kita bisa mengoleksikan data apapun seperti basic type atau class. didalam array terdapat indexes dimana kita perlukan untuk memanggil data didalam array, maka dari itu array dinamakan dengan ordered list, setiap data yang pertama kali di inputkan akan menjadi index ke 0 dan seterusnya. array bisa memiliki multiple data yan sama misalkan dalam array bus kita punya elemen apple dan apple, maka diperbolehkan untuk memiliki 2 tersebut
+\f0\b\fs24 .\
+\
+tipedata arrays.\
+[Any] = arrays yang berisi tipedata apa saja, boolean , string , Int etc.\
+[BasicTypes] = array satu macam yang berisi hanya satu tipedata.
+\f1\b0\fs26 \
+\
+inisialisasi.\
+var myArrays: [tipedata] = [\'93isinya\'94, \'93blay ah\'94]
+\f0\b\fs24 \
+\
+remember. (Working With Arrays)\
+1. array bisa dipassing kedalam parameter fungsi.\
+2. append = menambakan array dibelakang (single and sequence)
+\fs26 \
+3. count = digunakan untuk menghitung arrays (myarrays.count)\
+4. first = digunakan untuk melihat array pada index pertama.\
+5. last = digunakan untuk melihat array pada index terakhir.\
+6. Array bekerja dengan unwrap optionals dan optionals for sort use case.
+\fs24 \
+7. indieces = meread index yang ada.\
+8. insert = menmabhakan array berdasarkan idexes\
+7. remove = menghapus array on indexes\
+8. Arrays bisa bekerja dengan struct dan kelas 
+\fs26 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \
+
+\f0\b Sets
+\f1\b0 \
+sets merupakan collection of data. dimana pada sets yang merupakan collection data unordered list but unique, bisa mengoleksikan data dalam jumlah yang banyak tetapi tidak bisa menggunakan multiple data yang sama, apabila data ada yang sama maka ditulis satu kali thats why sets is unique
+\f0\b\fs24  collection data
+\f1\b0\fs26 . pada sets tidak memiliki indexes dan isi atau value akan ditulis random.\
+\
+init\
+var sySets: Set<datatypes> = [value1, value2]
+\f0\b \
+\
+// Dasar -14 ends //
+\fs24 \
+\
+// Dasar -15 starts //\
+Dictionary.\
+dictionary adalah grouping collection of data dimana dictionary adalah based on keys, when kita call keys and jump into definition of keys. Dictionary termasuk unordered but specific order by keys. that will makes dictionary safer than sets.
+\f1\b0 \
+enaknya si dictionary ini kalo accessing melalui key salah, maka aplikasi tidak crash karena dia optional.\
+1. dictionary is safe access\
+2. dictionary isnot have indexes\
+3. key in dictionary must unique, and different names
+\f0\b \
+\
+inisialisasi\
+var myDictionary: [datatypesforkey:Dataforvaluekey] = [key:\'94value\'94, key:\'94value]\
+\
+Operasi pada dictionary.\
+1. membaca value by accesing the keys. 
+\f1\b0 (safe access karena optionals)
+\f0\b \
+let value = myDictionary[keys]\
+2. adding keys and value\
+namaDictionary[keyswant added] = value\
+3. removing items\
+namaDictionary.removevalue(for key: add key)\
+\
+Dictionary vs Arrays.\
+ketika kita punya sebuah data maka kita kan store data kita pada array agar ter rder dengan baik, tetapi memilik masalah saat order items when outside the bounds, mengggunakan dictionary sangat cepat tidak perlu mengecek apakah ada datanya atau tidak maka tidak akan crash karena dia optional, terkhusus pada benda atau sesuatu yang memiliki UUID\
+\
+// Dasar -15 ends //\
+\
+// Dasar -26 starts //\
+For each loops\
+looping adalah perulangan dimana apabila kondisi true maka akan terus meloopung hingga kondisi menjadi false.\
+looping sangat berteman baik dengan arrays,\
+\
+fungsi loop.\
+1. meloop sebuah data agar dipakai pada program, biasanya berkaitan dengan database.\
+2. Pada looping biasanya data akan di sort kalo menggunakan data .json\
+\
+\
+REMEMBER\
+1. kalo bermain pada algebra atau anggka-angka, gunakan just on variables like x or y or z\
+2. kalo bermain pada data maka gunakan, kata-kata items, value, etc
+\f1\b0\fs26 \
+3. keyword nameArrays.enumerated() digunakan untuk mengambil indexing di arrays maka jadinya\
+	for (index, items) in nameArrays.enumerated() \{\
+		print(index)\
+		print(items)\
+	\} 
+\f0\b\fs24 \
+\
+macam-macam looping\
+1. for in loop\
+2. \
+\
+for in loop\
+\
+for namaYangMauDimasukanKeKondisi in dataYangMaudiLoop \{\
+\
+\}\
+example\
+for x in 0..<100 \{\
+print(x)\
+\}
+\f1\b0\fs26 \
+\
+control Flow looping\
+1. break\
+2. continue
+\f0\b\fs24 \
+\
+// Dasar -16 ends //\
+\
+// Dasar -17 starts //\
+filter, sort and map in swift\
+ketiga materi diatas berkaitan dengan materi saat ini materi diatas maksudnya, ketiga materi ini barkaitan dengan looping.\
+dimana pada saat looping kita bisa melakukan filtering(Penyaringan data), sorting data , dan juga mapping pada data.\
+\
+filtering\
+filtering adalah dimana pada array dengan spesifik subset dari data yang akan dimanipulasi.\
+\
+.filter\
+fungsinya sama aja seperti looping manual namun. menggunakan fungsi filter akan jauh lebih efisien code\
+\
+sorting\
+sorting adalah pengurutan data dari mulai ascending, atau descending.\
+\
+map \
+mapping adalah transform data dari satu tipe ke tipe lainnya.\
+misalkan saya punya array struct dan di convert ke arrays string.\
+mapping adalah mengambil data yang diperlukan saja didalam arrays\
+// Dasar -17 ends //}

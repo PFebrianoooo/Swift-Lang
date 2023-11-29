@@ -1,0 +1,11 @@
+import UIkit
+
+var FirstName = "Putra"
+var MiddleName = "Pebriano"
+var LastName = "Nurba"
+
+print ("hello my name is \(FirstName) \(MiddleName) \(LastName)")
+var Greeting = "Stay Tune With Me to Learn Swift Intensively"
+Greeting.append(". Thankyou for Supporting me <3 <3 <3 <3 <3")
+print (Greeting) 
+print ("I Love U 3000")

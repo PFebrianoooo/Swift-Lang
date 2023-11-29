@@ -1,0 +1,204 @@
+import 
+import adalah suatu keyword untuk mengcopykan standard liblary pada swift
+
+import UIkit
+ui kit digunakan untuk membuat tampilan ui pada swift
+
+Variable
+Changing (var)
+changing variable atau Variable dapat dirubah isinya tetapi harus dalam tipe data yang sama. misalkan string dengan string float dengan float serta double dengan double.
+
+variable adalah nama alias atau ember untuk mengimpan sebuah data diantara 4 tipe datanya adalah
+1. string
+2. double
+3. integer
+4. boolean
+
+Unchanging (let)
+Unchanging variable atau constant adalah nama alias tipe data untuk menyimpan sebuah data diantara 4 tipe data diatas secara constant
+constant tidak dapat dirubah isinya. apabila sudah di definisikan 1 kali maka seterusnya tidak dapat dirubah.
+
+init variable changing and unchanging
+
+Changing Variable
+
+var Nama = "Putra Pebriano"
+Nama = "Edoy"
+print (Nama)
+
+Unchanging Variable
+let Nama = "putra pebriano"
+// Nama = "Putra Pebriano" (cannot assign cause constant)
+print (Nama)
+
+var leght = 15
+var width = 15
+
+let area = leght * width
+print area
+
+
+inisisalisasi sebuah variable atau constant
+
+eksplisit
+var FirstName = "Putra Pebriano Nurba" 
+
+implisit
+let LastName : String = "Putra Pebriano Nurba"
+
+tipe data
+1. String sebuah tipe data yang mengimpan kata-kata kedalam variable
+
+intialisation atau cara penulisan
+
+var Name = "Putra Pebriano Nurba" // secara type inference
+
+var Name : String = "Putra Pebriano Nurba" // secara eksplisit
+
+menulis string
+
+secara conconetation
+print ("\(FirstName)" + " " + "\(LastName)")
+
+secara interpolation
+print ("My full name is \(FirstName) \(LastName))
+
+2. integer sebuah tipe data yang hanya bilangan bulat
+
+intialitsation
+var Age = 19
+
+
+3. Double atau Float sebuah tipe data yang menyediakan angka koma dibelakangnya atau desimal
+double default tipe data pabila kita menulis kedalam bilangan desimal
+
+intitalisation
+var Price = 10.400.00
+
+Operator
++ - * / %
+pow(namaVariable,2) untuk mengkuadratkan
+sqrt() mencari akar kuadrat
+
+init
+var legth = 10 
+var width = 15
+
+// a^2 + b^2 = c^2
+let Area = sqrt(pow(leght,2) + pow(width,2)) 
+
+
+init 
+var health = 100
+var poisonDamage = 20 
+
+menggunakan operator
+Let Nilai = health - poisonDamage // dinamakan dengan operator multiplication
+health = health / poisonDamage // operator substraction
+health -= poisonDamage // operator compound
+health *= poison damage // operator compound
+
+
+Casting
+merubah tipe data integer ke double dan sebaliknya yang dinamakan dengan casting
+var quantity = 10
+var price = 10.99
+
+var cost = int(Double(quantity)) * price
+
+nb 
+bahwa int(Double(quantity)) niban tipe data dimana wang awalnya double di tiban integer hasilna integer 
+
+Boolean and Conditional logic and operator
+
+1. Boolean (Bool)
+boolean berisi true atau false dalam sebuah operator
+
+2. Operator
+A. sama dengan ==
+B. lebih dari >
+C. kurang dari <
+D. lebih dari sama dnegan >=
+E. kurang dari sama dnegan <=
+F. tidak sama dengan !=
+
+3 Conditional Logic
+if else statement and Nested if
+
+
+// initialisation
+
+var Nilai = 80
+var Nilai1 = 90
+if Nilai >= Nilai1 {
+	print ("Memenuhi syarat")
+}else {
+	print ("Tidak Mamenuhi Syarat")
+}
+
+Nested if 
+
+if Nilai >= Nilai1 {
+	print ("Memenuhi syarat")
+}else if Nilai1 <= Nilai {
+	print ("Kamu harus Belajar Lagi")
+}
+else {
+	print ("Tidak Mamenuhi Syarat")
+}
+
+Logical Operator
+logical bukan operator tetapi unary prefix oprator
+! artinya not atau tidak
+
+let allowedentry = false
+
+if !allowedentry {
+	print ("hello allowed entry")
+}
+
+if allowedentry != false {
+	print ("hello allowed entry")
+}
+
+
+Arrays 
+adalah struktur data untuk mengimpan banyak nilai berbeda tipedata kedalam variable array
+count adalah kata kunci untuk menghitung apapun termasuk array dan string
+array biasanya digunakan untuk membuat daftar apapun
+
+// init secara eksplisit
+var EmployeeSalary : [Double] = [45000.0 , 50000.0 , 100000.0 , 20000.0 , 25000.0]\
+var EmoloyeeSalary = [Double] () // arrays kosongan
+
+init
+
+var EmployeeSalary [123,112,224]
+EmployeeSalary.append(135) // digunakan untuk menambah elemen kedalam array di belakang
+EmployeeSalary.insert("Bob", at : 0) // digunakan untuk menambah elemen kedalam array sesuai indeks yang dimau can be front or behind
+employee.count // menghitung jumlah array
+Employee.delete(at : int == index ) // menghapus array
+
+let result = EmployeeSalary[2]
+print (result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
